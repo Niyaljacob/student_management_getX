@@ -29,6 +29,13 @@ class StudentDetailspage extends StatelessWidget {
           }, 
           icon: const Icon(Icons.delete),
           ),
+          IconButton(
+            icon: const Icon(Icons.edit),
+            onPressed: () {
+              controller.editStudent(student);
+
+            },
+          ),
           ],
       ),
       body: Column(

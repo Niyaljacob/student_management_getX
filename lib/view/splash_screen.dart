@@ -12,11 +12,14 @@ class SplashScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Tcolo.white, 
-      body: Center(
-        child:GetBuilder<LoginController>(builder: (loginController){
-          return  SizedBox(child: Image.asset('assets/logo_prev_ui.png'));
-        },
-        )
+      body: GetBuilder<LoginController>(builder: (loginController){
+        return  Center(
+          child: Container(width: 200,
+          height: 200,
+            decoration: BoxDecoration(image: DecorationImage(image: AssetImage('assets/organisation.png'))),
+            ),
+        );
+      },
       ),
 
 

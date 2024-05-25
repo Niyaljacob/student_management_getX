@@ -47,7 +47,7 @@ class AddStudentScreen extends StatelessWidget {
                 },
                 child:Obx(() => CircleAvatar(
                   radius: 80,
-                  backgroundColor: Color.fromARGB(255, 124, 123, 123),
+                  backgroundColor: const Color.fromARGB(255, 124, 123, 123),
                   backgroundImage:
                       controller.profilePicturePath.value.isNotEmpty
                           ? FileImage(File(controller.profilePicturePath.value ))

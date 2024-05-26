@@ -143,7 +143,7 @@ class AddStudentScreen extends StatelessWidget {
                RoundButton(
                 title: 'Save',
                 textColor: Tcolo.white,
-                buttonColor: Tcolo.primarycolor2,
+                buttonColor: Tcolo.primarycolor1,
                 onPressed: () {
                   if (_formkey.currentState!.validate()) {
                     final name = controller.name.value;

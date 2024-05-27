@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:student_manag_getx/controllers/login_controller.dart';
 import 'package:student_manag_getx/core/color.dart';
 
@@ -16,7 +15,7 @@ class SplashScreen extends StatelessWidget {
         return  Center(
           child: Container(width: 200,
           height: 200,
-            decoration: BoxDecoration(image: DecorationImage(image: AssetImage('assets/organisation.png'))),
+            decoration: const BoxDecoration(image: DecorationImage(image: AssetImage('assets/organisation.png'))),
             ),
         );
       },

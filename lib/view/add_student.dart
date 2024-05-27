@@ -3,7 +3,6 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:student_manag_getx/common_widgets/round_button.dart';
 import 'package:student_manag_getx/controllers/add_student_controller.dart';
@@ -12,6 +11,7 @@ import 'package:student_manag_getx/core/constance.dart';
 import 'package:student_manag_getx/data_base_helper.dart/data_base_helper.dart';
 import 'package:student_manag_getx/model/student_model.dart';
 
+// ignore: must_be_immutable
 class AddStudentScreen extends StatelessWidget {
   final AddStudentController controller = Get.put(AddStudentController());
   final _formkey = GlobalKey<FormState>();

@@ -22,9 +22,7 @@ class HomePage extends StatelessWidget {
         child: Container(
         padding:const EdgeInsets.only(top: 25),
           color: Tcolo.primarycolor1,
-          child: 
-          // !controller.isSearching.isTrue?
-         
+          child:         
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -62,14 +60,6 @@ class HomePage extends StatelessWidget {
               ),
             ],
           ),
-          // :
-         
-          // actions: [
-          //   IconButton(onPressed: (){
-              
-          //     controller.toggleSearch();
-          //   }, icon: const Icon(Icons.search))
-          // ],
         ),
       ),
       body: Obx(() {

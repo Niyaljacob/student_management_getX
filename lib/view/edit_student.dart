@@ -2,8 +2,6 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_state_manager/src/rx_flutter/rx_obx_widget.dart';
-import 'package:get/get_state_manager/src/simple/get_state.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:student_manag_getx/common_widgets/round_button.dart';
 import 'package:student_manag_getx/controllers/edit_student_controller.dart';

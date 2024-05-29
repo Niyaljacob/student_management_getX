@@ -36,11 +36,4 @@ class HomeController extends GetxController{
           .toList());
     }
   }
-
-   toggleSearch() {
-    isSearching.toggle();
-    if (!isSearching.isTrue) {
-      filteredStudents.assignAll(students);
-    }
-  }
 }

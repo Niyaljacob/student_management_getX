@@ -2,7 +2,6 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:student_manag_getx/controllers/student_details_controller.dart';
 import 'package:student_manag_getx/core/color.dart';
 import 'package:student_manag_getx/core/constance.dart';

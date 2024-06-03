@@ -16,7 +16,7 @@ class EditStudentScreen extends StatelessWidget {
     final EditStudentController controller = Get.put(EditStudentController());
 
   final Student student;
-   EditStudentScreen({super.key, required this.student});
+    EditStudentScreen({super.key, required this.student});
   
   @override
   Widget build(BuildContext context) {
